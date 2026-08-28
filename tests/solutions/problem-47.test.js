@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { clampRetryCount } from '../../solutions/problem-47.js';
+
+test('Reference solution 47: clampRetryCount', () => {
+  assert.deepStrictEqual(clampRetryCount(-2), 0);
+  assert.deepStrictEqual(clampRetryCount(2), 2);
+});
