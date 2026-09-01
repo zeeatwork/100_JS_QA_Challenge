@@ -9,6 +9,5 @@
  * Timebox: 20 minutes or less.
  */
 export function isWithinRetryLimit(retryCount) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return retryCount <= 2;
 }

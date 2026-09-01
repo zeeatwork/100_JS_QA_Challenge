@@ -47,7 +47,7 @@ npm run test:solutions
 5. Run its focused unit test:
 
 ```bash
-node --test tests/problem-001.test.js
+node --test tests/problem-01.test.js
 ```
 
 6. Fix failures using the assertion output.

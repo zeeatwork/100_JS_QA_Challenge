@@ -9,6 +9,5 @@
  * Timebox: 20 minutes or less.
  */
 export function divideTestCases(totalCases, suiteCount) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return totalCases/suiteCount;
 }

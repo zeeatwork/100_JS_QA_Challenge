@@ -9,6 +9,5 @@
  * Timebox: 20 minutes or less.
  */
 export function isString(value) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return typeof value === 'string';
 }
