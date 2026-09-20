@@ -9,6 +9,5 @@
  * Timebox: 20 minutes or less.
  */
 export function toFixedScore(score) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return Number.parseFloat(score).toFixed(2);
 }
