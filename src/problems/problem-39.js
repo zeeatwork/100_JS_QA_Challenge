@@ -9,6 +9,5 @@
  * Timebox: 20 minutes or less.
  */
 export function getDomain(email) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return email.slice(email.indexOf('@') + 1);
 }

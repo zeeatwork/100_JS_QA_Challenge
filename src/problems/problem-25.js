@@ -9,6 +9,5 @@
  * Timebox: 20 minutes or less.
  */
 export function containsSmoke(suiteName) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return suiteName.includes('smoke');
 }

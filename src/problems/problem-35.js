@@ -9,6 +9,5 @@
  * Timebox: 20 minutes or less.
  */
 export function hasCaseInsensitiveStatus(status) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return status.toLowerCase() === 'passed';
 }

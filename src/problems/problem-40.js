@@ -9,6 +9,5 @@
  * Timebox: 20 minutes or less.
  */
 export function getUsername(email) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return email.slice(0, email.indexOf('@'));
 }
