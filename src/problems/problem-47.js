@@ -9,6 +9,9 @@
  * Timebox: 20 minutes or less.
  */
 export function clampRetryCount(retryCount) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  if (retryCount <= 0){
+    return 0;
+  } else {
+    return retryCount;
+  }
 }
