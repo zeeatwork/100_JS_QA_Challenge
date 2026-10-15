@@ -1,6 +1,15 @@
 /**
- * Reference solution for Problem 53: bothChecksGreen
+ * Reference solution for Problem 53: trim drill
+ * Type: Drill
  */
-export function bothChecksGreen(first, second) {
-  return first && second;
+export function cleanTicketId(raw) {
+  return raw.trim();
+}
+
+export function isBlankComment(text) {
+  return text.trim() === '';
+}
+
+export function countVisibleCharacters(label) {
+  return label.trim().length;
 }

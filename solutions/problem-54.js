@@ -1,6 +1,15 @@
 /**
- * Reference solution for Problem 54: eitherCheckGreen
+ * Reference solution for Problem 54: toLowerCase drill
+ * Type: Drill
  */
-export function eitherCheckGreen(first, second) {
-  return first || second;
+export function isSameBrowser(a, b) {
+  return a.toLowerCase() === b.toLowerCase();
+}
+
+export function toTagKey(tag) {
+  return tag.toLowerCase();
+}
+
+export function isPassedStatus(status) {
+  return status.toLowerCase() === 'passed';
 }

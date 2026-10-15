@@ -18,6 +18,10 @@ Solve **100 realistic workday problems**, each designed for **20 minutes or less
 
 The scenarios use QA language: test status, retries, builds, environments, suites, tickets, browsers, durations, workers, approvals, and release readiness.
 
+## Version 2 (in progress)
+
+Problems 50-100 are being rewritten in batches of 10 with single-method drills, more edge-case tests, and gradually harder, more realistic QA tasks. Problems 50-59 are done. See `docs/v2-plan.md` for the plan and batch status.
+
 ## Requirements
 
 - Node.js 18+ recommended
@@ -64,7 +68,7 @@ The 100 problems intentionally repeat concepts after increasing gaps. For exampl
 - `startsWith()`, `endsWith()`, and `includes()` return later.
 - `toLowerCase()`, `trim()`, and `slice()` return repeatedly.
 - `Number.isFinite()`, `Math.max()`, `Math.min()`, and `Math.round()` return after a delay.
-- `||` and `??` are deliberately contrasted in Problems 56–57 and 86–87.
+- `||` and `??` are deliberately contrasted in Problems 58 and 86–87.
 
 See `docs/spaced-repetition.md` for a retrieval schedule.
 

@@ -1,5 +1,7 @@
 # Problem Index
 
+Problems 50-59 are version 2. Problems 60-100 are still version 1 and will be rewritten in batches. See `docs/v2-plan.md`.
+
 | # | Category | Function | Focus |
 |---:|---|---|---|
 | 1 | Primitive Types | `isString()` | `typeof` |
@@ -51,16 +53,16 @@
 | 47 | Numbers | `clampRetryCount()` | `Math.max` |
 | 48 | Numbers | `capWorkers()` | `Math.min` |
 | 49 | Numbers | `roundDuration()` | `Math.round` |
-| 50 | Numbers | `floorVersionPart()` | `Math.floor` |
-| 51 | Evaluators | `sameBuildNumber()` | `===` |
-| 52 | Evaluators | `differentEnvironment()` | `!==` |
-| 53 | Evaluators | `bothChecksGreen()` | `&&` |
-| 54 | Evaluators | `eitherCheckGreen()` | `||` |
-| 55 | Evaluators | `notBlocked()` | `!` |
-| 56 | Evaluators | `defaultBrowser()` | `||` |
-| 57 | Evaluators | `defaultTimeout()` | `??` |
-| 58 | Evaluators | `chooseReportLabel()` | `ternary` |
-| 59 | Evaluators | `isQuickCheck()` | `<` |
+| 50 | Diagnostic | `isValidRetryCount()`, `normalizeEnvironment()`, `getTicketNumber()`, `shouldBlockRelease()`, `clampWorkers()`, `isOddShard()` | Mixed review |
+| 51 | Drill | `getBuildDate()`, `getRunSuffix()`, `getShortSha()` | `slice` |
+| 52 | Drill | `findFirstFailure()`, `hasProjectSeparator()`, `getValueAfterColon()` | `indexOf` |
+| 53 | Drill | `cleanTicketId()`, `isBlankComment()`, `countVisibleCharacters()` | `trim` |
+| 54 | Drill | `isSameBrowser()`, `toTagKey()`, `isPassedStatus()` | `toLowerCase` |
+| 55 | Drill | `isProdUrl()`, `isQaTicket()`, `isCommentLine()` | `startsWith` |
+| 56 | Drill | `parseDurationMs()`, `parseRetryAfter()`, `getMajorVersion()` | `Number.parseInt` |
+| 57 | Drill | `getSlowestDuration()`, `atLeastOneWorker()`, `getOverrunMs()` | `Math.max` |
+| 58 | Drill | `getBaseUrl()`, `getRetryCount()`, `getHeadless()` | `??` |
+| 59 | Drill | `resultLabel()`, `describeTestCount()`, `formatDuration()` | `ternary` |
 | 60 | Evaluators | `isLongRunning()` | `>` |
 | 61 | Strings | `startsWithQa()` | `startsWith` |
 | 62 | Strings | `endsWithBug()` | `endsWith` |
