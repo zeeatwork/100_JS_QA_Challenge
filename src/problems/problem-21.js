@@ -4,7 +4,6 @@
  *
  * Return the supplied environment name unchanged.
  * Examples: 'staging' → 'staging'
- * Practice focus: string primitive
  *
  * Timebox: 20 minutes or less.
  */

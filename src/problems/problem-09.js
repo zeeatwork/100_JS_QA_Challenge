@@ -4,7 +4,6 @@
  *
  * Return the average test cases per suite.
  * Examples: 20, 4 → 5
- * Practice focus: binary /
  *
  * Timebox: 20 minutes or less.
  */

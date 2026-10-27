@@ -4,7 +4,6 @@
  *
  * Return true when a test name ends with '-api'.
  * Examples: 'orders-api' → true
- * Practice focus: endsWith
  *
  * Timebox: 20 minutes or less.
  */

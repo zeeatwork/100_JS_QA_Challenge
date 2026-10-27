@@ -4,7 +4,6 @@
  *
  * Return workerCount, but never above 8.
  * Examples: 10 → 8; 4 → 4
- * Practice focus: Math.min
  *
  * Timebox: 20 minutes or less.
  */

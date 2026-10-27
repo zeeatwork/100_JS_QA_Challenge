@@ -1,8 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { sameBuildNumber } from '../src/problems/problem-51.js';
+import { getBuildDate, getRunSuffix, getSprintNumber } from '../src/problems/problem-51.js';
 
-test('Problem 51: sameBuildNumber', () => {
-  assert.deepStrictEqual(sameBuildNumber(42, 42), true);
-  assert.deepStrictEqual(sameBuildNumber(42, '42'), false);
+test('Problem 51: getBuildDate returns the date part of a timestamp', () => {
+  assert.deepStrictEqual(getBuildDate("2026-10-14T09:30:00Z"), "2026-10-14");
+  assert.deepStrictEqual(getBuildDate("2025-01-02T23:59:59.999Z"), "2025-01-02");
+});
+
+test('Problem 51: getRunSuffix returns the last four characters', () => {
+  assert.deepStrictEqual(getRunSuffix("run_8812391"), "2391");
+  assert.deepStrictEqual(getRunSuffix("run_0001"), "0001");
+  assert.deepStrictEqual(getRunSuffix("r12"), "r12");
+});
+
+test('Problem 51: getSprintNumber returns the number part of a sprint name', () => {
+  assert.deepStrictEqual(getSprintNumber("Sprint 14"), "14");
+  assert.deepStrictEqual(getSprintNumber("Sprint 7"), "7");
+  assert.deepStrictEqual(getSprintNumber("Sprint 120"), "120");
+  assert.deepStrictEqual(getSprintNumber("Sprint "), "");
 });

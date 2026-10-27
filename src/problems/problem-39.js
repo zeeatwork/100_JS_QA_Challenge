@@ -4,7 +4,6 @@
  *
  * Return the part after '@' in an email address.
  * Examples: 'qa@example.com' → 'example.com'
- * Practice focus: indexOf + slice
  *
  * Timebox: 20 minutes or less.
  */

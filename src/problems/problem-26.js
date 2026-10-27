@@ -4,7 +4,6 @@
  *
  * Return the status in lowercase.
  * Examples: 'PASSED' → 'passed'
- * Practice focus: toLowerCase
  *
  * Timebox: 20 minutes or less.
  */

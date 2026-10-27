@@ -4,7 +4,6 @@
  *
  * Return true when value is an integer.
  * Examples: 101 → true; 10.5 → false
- * Practice focus: Number.isInteger
  *
  * Timebox: 20 minutes or less.
  */

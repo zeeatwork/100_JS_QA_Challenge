@@ -4,7 +4,6 @@
  *
  * Return the first character of a ticket key.
  * Examples: 'QA-104' → 'Q'
- * Practice focus: []
  *
  * Timebox: 20 minutes or less.
  */
