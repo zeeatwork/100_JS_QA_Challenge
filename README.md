@@ -18,6 +18,10 @@ Solve **100 realistic workday problems**, each designed for **20 minutes or less
 
 The scenarios use QA language: test status, retries, builds, environments, suites, tickets, browsers, durations, workers, approvals, and release readiness.
 
+## Version 2 (in progress)
+
+Problems 50-100 are being rewritten in batches of 10 with single-method drills, more edge-case tests, and gradually harder, more realistic QA tasks. Problems 50-59 are done. See `docs/v2-plan.md` for the plan and batch status.
+
 ## Requirements
 
 - Node.js 18+ recommended
@@ -55,24 +59,17 @@ node --test tests/problem-01.test.js
 
 ## Spaced repetition
 
-The 100 problems intentionally repeat concepts after increasing gaps. For example:
+The 100 problems repeat key concepts after increasing gaps, so you recall a method several times instead of seeing it once. See `docs/spaced-repetition.md` for a retrieval schedule.
 
-- `typeof` returns in Problems 1–4.
-- `===` returns repeatedly from Problems 5 through 100.
-- `%` appears in Problems 10 and 17.
-- `.length` returns in Problems 22, 36, 67, and 95.
-- `startsWith()`, `endsWith()`, and `includes()` return later.
-- `toLowerCase()`, `trim()`, and `slice()` return repeatedly.
-- `Number.isFinite()`, `Math.max()`, `Math.min()`, and `Math.round()` return after a delay.
-- `||` and `??` are deliberately contrasted in Problems 56–57 and 86–87.
+## Hints
 
-See `docs/spaced-repetition.md` for a retrieval schedule.
+Headers for Problems 01-59 don't name the method to use. Working out which one fits is part of the practice. If you're stuck, `docs/hints.md` has one folded hint per problem. Problems 60-100 still name the method and will move to hints as they're rewritten. Try the hint before the reference solution.
 
 ## 20-minute routine
 
 - **2 min:** Read the requirement and predict the operator/method.
 - **12 min:** Code.
-- **4 min:** Run the unit test and debug.
+- **4 min:** Run the unit test and debug. Still stuck? Open the hint.
 - **2 min:** Recall the method/property from memory and write a one-line note.
 
 If you reach 20 minutes, stop and review. Reattempt the problem during its next spaced-repetition review.
@@ -85,8 +82,10 @@ javascript-qa-100-problems/
 ├── tests/              # Unit tests for your implementations
 ├── solutions/          # Reference implementations
 ├── docs/
+│   ├── hints.md
 │   ├── problem-index.md
-│   └── spaced-repetition.md
+│   ├── spaced-repetition.md
+│   └── v2-plan.md
 ├── package.json
 └── README.md
 ```

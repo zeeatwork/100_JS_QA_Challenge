@@ -4,7 +4,6 @@
  *
  * Return a separator repeated count times.
  * Examples: '-', 4 → '----'
- * Practice focus: repeat
  *
  * Timebox: 20 minutes or less.
  */

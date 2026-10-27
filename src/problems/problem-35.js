@@ -4,7 +4,6 @@
  *
  * Return true when a status matches 'passed' regardless of case.
  * Examples: 'PASSED' → true
- * Practice focus: toLowerCase + ===
  *
  * Timebox: 20 minutes or less.
  */

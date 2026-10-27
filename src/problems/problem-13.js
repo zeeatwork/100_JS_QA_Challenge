@@ -4,7 +4,6 @@
  *
  * Return true when status is 'failed' OR 'blocked'.
  * Examples: 'blocked' → true
- * Practice focus: ||
  *
  * Timebox: 20 minutes or less.
  */

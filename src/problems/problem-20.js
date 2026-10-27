@@ -4,7 +4,6 @@
  *
  * Return JavaScript's boolean conversion of the supplied value.
  * Examples: 'login' → true; '' → false
- * Practice focus: Boolean
  *
  * Timebox: 20 minutes or less.
  */

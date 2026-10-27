@@ -4,7 +4,6 @@
  *
  * Return the numeric portion of a ticket key as text.
  * Examples: 'QA-104' → '104'
- * Practice focus: slice
  *
  * Timebox: 20 minutes or less.
  */

@@ -4,7 +4,6 @@
  *
  * Return true when the supplied value is the special NaN value.
  * Examples: NaN → true; 'x' → false
- * Practice focus: Number.isNaN
  *
  * Timebox: 20 minutes or less.
  */

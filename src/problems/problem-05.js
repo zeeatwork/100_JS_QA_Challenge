@@ -4,7 +4,6 @@
  *
  * Return true when the supplied value is exactly null.
  * Examples: null → true; undefined → false
- * Practice focus: ===
  *
  * Timebox: 20 minutes or less.
  */
