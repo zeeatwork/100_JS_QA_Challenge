@@ -1,5 +1,5 @@
 /**
- * Reference solution for Problem 59: ternary drill
+ * Reference solution for Problem 59: Operators drill
  * Type: Drill
  */
 export function resultLabel(passed) {

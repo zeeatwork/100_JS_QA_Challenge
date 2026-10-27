@@ -1,5 +1,6 @@
 /**
  * Reference solution for Problem 50: Review of Problems 01-49
+ * Category: Mixed review
  * Type: Diagnostic
  *
  * Skills checked: Number.isInteger and >=, trim and toLowerCase,
@@ -13,8 +14,8 @@ export function normalizeEnvironment(name) {
   return name.trim().toLowerCase();
 }
 
-export function getTicketNumber(ticketId) {
-  return Number.parseInt(ticketId.slice(ticketId.indexOf('-') + 1), 10);
+export function getTicketNumber(ticketKey) {
+  return Number.parseInt(ticketKey.slice(ticketKey.indexOf('-') + 1), 10);
 }
 
 export function shouldBlockRelease(failedCount, isApproved) {

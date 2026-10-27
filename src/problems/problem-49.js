@@ -4,7 +4,6 @@
  *
  * Round a duration to the nearest whole number.
  * Examples: 12.6 → 13
- * Practice focus: Math.round
  *
  * Timebox: 20 minutes or less.
  */

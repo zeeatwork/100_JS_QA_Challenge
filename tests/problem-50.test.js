@@ -17,7 +17,7 @@ test('Problem 50: cleans up environment names from config', () => {
   assert.deepStrictEqual(normalizeEnvironment("dev"), "dev");
 });
 
-test('Problem 50: reads the number out of a ticket ID', () => {
+test('Problem 50: reads the number out of a ticket key', () => {
   assert.deepStrictEqual(getTicketNumber("QA-1042"), 1042);
   assert.deepStrictEqual(getTicketNumber("BUG-7"), 7);
   assert.deepStrictEqual(getTicketNumber("PLAT-0300"), 300);

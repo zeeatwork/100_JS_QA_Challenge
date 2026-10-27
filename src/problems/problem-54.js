@@ -1,10 +1,11 @@
 /**
- * Problem 54: toLowerCase drill
+ * Problem 54: Strings drill
+ * Category: Strings
  * Type: Drill
- * Practice focus: String.prototype.toLowerCase()
  *
- * Three short reps with the same method. Use it in every function,
- * even where another approach would also pass.
+ * Three short reps. All three can be solved with the same method.
+ * Work out which one, then use it in every function, even where
+ * another approach would also pass. Stuck? See docs/hints.md.
  *
  * 1. isSameBrowser(a, b)
  *    Return true when two browser names match, ignoring

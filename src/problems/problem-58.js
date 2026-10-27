@@ -1,16 +1,16 @@
 /**
- * Problem 58: ?? (nullish coalescing) drill
+ * Problem 58: Operators drill
+ * Category: Operators
  * Type: Drill
- * Practice focus: ?? (nullish coalescing)
  *
- * Three short reps with the same method. Use it in every function,
- * even where another approach would also pass.
+ * Three short reps. All three can be solved with the same method.
+ * Work out which one, then use it in every function, even where
+ * another approach would also pass. Stuck? See docs/hints.md.
  *
- * 1. getBaseUrl(configured)
- *    Return the configured base URL, or 'http://localhost:3000'
- *    when none was provided. An empty string is a deliberate
- *    setting and should be kept.
- *    Examples: undefined → 'http://localhost:3000'; '' → ''
+ * 1. getAssignee(assignee)
+ *    Return the ticket's assignee, or 'Unassigned' when the
+ *    field is empty (null or undefined).
+ *    Examples: null → 'Unassigned'; 'jsmith' → 'jsmith'
  *
  * 2. getRetryCount(configured)
  *    Return the configured retry count, or 2 when none was
@@ -24,7 +24,7 @@
  * Run: node --test tests/problem-58.test.js
  * Timebox: 20 minutes or less.
  */
-export function getBaseUrl(configured) {
+export function getAssignee(assignee) {
   // TODO: Replace this with your solution.
   throw new Error('Not implemented');
 }

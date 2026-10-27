@@ -1,5 +1,5 @@
 /**
- * Reference solution for Problem 57: Math.max drill
+ * Reference solution for Problem 57: Numbers drill
  * Type: Drill
  */
 export function getSlowestDuration(a, b, c) {

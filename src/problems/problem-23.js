@@ -4,7 +4,6 @@
  *
  * Return true when a test name starts with 'prod-'.
  * Examples: 'prod-login' → true
- * Practice focus: startsWith
  *
  * Timebox: 20 minutes or less.
  */

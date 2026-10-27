@@ -1,5 +1,6 @@
 /**
  * Problem 50: Review of Problems 01-49
+ * Category: Mixed review
  * Type: Diagnostic
  *
  * Six short functions that mix skills from Problems 01-49.
@@ -17,9 +18,9 @@
  *    lowercase name.
  *    Examples: ' Staging ' → 'staging'
  *
- * 3. getTicketNumber(ticketId)
- *    Return the numeric part of a ticket ID as a number.
- *    IDs always look like PROJECT-DIGITS.
+ * 3. getTicketNumber(ticketKey)
+ *    Return the numeric part of a ticket key as a number.
+ *    Keys always look like PROJECT-DIGITS.
  *    Examples: 'QA-1042' → 1042; 'PLAT-0300' → 300
  *
  * 4. shouldBlockRelease(failedCount, isApproved)
@@ -37,6 +38,8 @@
  *    the shard number is odd.
  *    Examples: 1 → true; 2 → false
  *
+ * Stuck? See docs/hints.md.
+ *
  * Run: node --test tests/problem-50.test.js
  * Timebox: 20 minutes or less.
  */
@@ -50,7 +53,7 @@ export function normalizeEnvironment(name) {
   throw new Error('Not implemented');
 }
 
-export function getTicketNumber(ticketId) {
+export function getTicketNumber(ticketKey) {
   // TODO: Replace this with your solution.
   throw new Error('Not implemented');
 }

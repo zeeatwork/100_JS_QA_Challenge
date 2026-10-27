@@ -1,15 +1,15 @@
 /**
- * Reference solution for Problem 56: Number.parseInt drill
+ * Reference solution for Problem 56: Numbers drill
  * Type: Drill
  */
 export function parseDurationMs(text) {
   return Number.parseInt(text, 10);
 }
 
-export function parseRetryAfter(headerValue) {
-  return Number.parseInt(headerValue, 10);
+export function parseStoryPoints(estimate) {
+  return Number.parseInt(estimate, 10);
 }
 
-export function getMajorVersion(version) {
-  return Number.parseInt(version, 10);
+export function getMajorVersion(fixVersion) {
+  return Number.parseInt(fixVersion, 10);
 }

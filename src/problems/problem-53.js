@@ -1,39 +1,42 @@
 /**
- * Problem 53: trim drill
+ * Problem 53: Strings drill
+ * Category: Strings
  * Type: Drill
- * Practice focus: String.prototype.trim()
  *
- * Three short reps with the same method. Use it in every function,
- * even where another approach would also pass.
+ * Three short reps. All three can be solved with the same method.
+ * Work out which one, then use it in every function, even where
+ * another approach would also pass. Stuck? See docs/hints.md.
  *
- * 1. cleanTicketId(raw)
+ * 1. cleanTicketKey(raw)
  *    Remove spaces, tabs, and newlines from both ends of a
- *    ticket ID copied out of a spreadsheet.
+ *    ticket key copied out of a spreadsheet.
  *    Examples: '  QA-12 ' → 'QA-12'
  *
- * 2. isBlankComment(text)
- *    Return true when a review comment has no visible text.
- *    Examples: '   ' → true; ' ok ' → false
+ * 2. isBlankSummary(summary)
+ *    Bug reports can't be filed without a summary. Return true
+ *    when a summary has no visible text.
+ *    Examples: '   ' → true; ' Login fails ' → false
  *
- * 3. countVisibleCharacters(label)
- *    Return how many characters a label has once
- *    surrounding whitespace is removed.
- *    Examples: ' Login ' → 5
+ * 3. getSummaryLength(summary)
+ *    The tracker limits bug summaries to 255 characters. Return
+ *    how many characters a summary has once surrounding whitespace
+ *    is removed.
+ *    Examples: ' Login fails ' → 11
  *
  * Run: node --test tests/problem-53.test.js
  * Timebox: 20 minutes or less.
  */
-export function cleanTicketId(raw) {
+export function cleanTicketKey(raw) {
   // TODO: Replace this with your solution.
   throw new Error('Not implemented');
 }
 
-export function isBlankComment(text) {
+export function isBlankSummary(summary) {
   // TODO: Replace this with your solution.
   throw new Error('Not implemented');
 }
 
-export function countVisibleCharacters(label) {
+export function getSummaryLength(summary) {
   // TODO: Replace this with your solution.
   throw new Error('Not implemented');
 }

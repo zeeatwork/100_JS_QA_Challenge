@@ -4,7 +4,6 @@
  *
  * Return the queue count after one item is removed.
  * Examples: 5 → 4
- * Practice focus: -
  *
  * Timebox: 20 minutes or less.
  */

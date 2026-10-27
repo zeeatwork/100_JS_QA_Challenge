@@ -1,10 +1,11 @@
 /**
- * Problem 51: slice drill
+ * Problem 51: Strings drill
+ * Category: Strings
  * Type: Drill
- * Practice focus: String.prototype.slice()
  *
- * Three short reps with the same method. Use it in every function,
- * even where another approach would also pass.
+ * Three short reps. All three can be solved with the same method.
+ * Work out which one, then use it in every function, even where
+ * another approach would also pass. Stuck? See docs/hints.md.
  *
  * 1. getBuildDate(timestamp)
  *    Return just the date part of an ISO timestamp.
@@ -15,10 +16,10 @@
  *    is shorter than four characters, return the whole ID.
  *    Examples: 'run_8812391' → '2391'; 'r12' → 'r12'
  *
- * 3. getShortSha(sha)
- *    Return the first seven characters of a commit SHA, the
- *    way Git shows short SHAs. Shorter input is returned as is.
- *    Examples: 'f1170ee9a2c4b1' → 'f1170ee'
+ * 3. getSprintNumber(sprintName)
+ *    Sprint names in the tracker always look like 'Sprint ' followed
+ *    by a number. Return the number part, still as a string.
+ *    Examples: 'Sprint 14' → '14'; 'Sprint 7' → '7'
  *
  * Run: node --test tests/problem-51.test.js
  * Timebox: 20 minutes or less.
@@ -33,7 +34,7 @@ export function getRunSuffix(runId) {
   throw new Error('Not implemented');
 }
 
-export function getShortSha(sha) {
+export function getSprintNumber(sprintName) {
   // TODO: Replace this with your solution.
   throw new Error('Not implemented');
 }

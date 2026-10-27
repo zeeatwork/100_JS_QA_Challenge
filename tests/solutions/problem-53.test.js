@@ -1,22 +1,22 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { cleanTicketId, isBlankComment, countVisibleCharacters } from '../../solutions/problem-53.js';
+import { cleanTicketKey, isBlankSummary, getSummaryLength } from '../../solutions/problem-53.js';
 
-test('Reference solution 53: cleanTicketId removes surrounding whitespace', () => {
-  assert.deepStrictEqual(cleanTicketId("  QA-12 "), "QA-12");
-  assert.deepStrictEqual(cleanTicketId("\tBUG-9\n"), "BUG-9");
-  assert.deepStrictEqual(cleanTicketId("QA-12"), "QA-12");
+test('Reference solution 53: cleanTicketKey removes surrounding whitespace', () => {
+  assert.deepStrictEqual(cleanTicketKey("  QA-12 "), "QA-12");
+  assert.deepStrictEqual(cleanTicketKey("\tBUG-9\n"), "BUG-9");
+  assert.deepStrictEqual(cleanTicketKey("QA-12"), "QA-12");
 });
 
-test('Reference solution 53: isBlankComment detects empty or whitespace-only comments', () => {
-  assert.deepStrictEqual(isBlankComment("   "), true);
-  assert.deepStrictEqual(isBlankComment(""), true);
-  assert.deepStrictEqual(isBlankComment("\n\t"), true);
-  assert.deepStrictEqual(isBlankComment(" ok "), false);
+test('Reference solution 53: isBlankSummary detects empty or whitespace-only summaries', () => {
+  assert.deepStrictEqual(isBlankSummary("   "), true);
+  assert.deepStrictEqual(isBlankSummary(""), true);
+  assert.deepStrictEqual(isBlankSummary("\n\t"), true);
+  assert.deepStrictEqual(isBlankSummary(" Login fails "), false);
 });
 
-test('Reference solution 53: countVisibleCharacters ignores surrounding whitespace', () => {
-  assert.deepStrictEqual(countVisibleCharacters(" Login "), 5);
-  assert.deepStrictEqual(countVisibleCharacters("Sign up"), 7);
-  assert.deepStrictEqual(countVisibleCharacters("   "), 0);
+test('Reference solution 53: getSummaryLength ignores surrounding whitespace', () => {
+  assert.deepStrictEqual(getSummaryLength(" Login fails "), 11);
+  assert.deepStrictEqual(getSummaryLength("Export button missing"), 21);
+  assert.deepStrictEqual(getSummaryLength("   "), 0);
 });

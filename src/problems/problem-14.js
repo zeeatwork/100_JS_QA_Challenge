@@ -4,7 +4,6 @@
  *
  * Return true when a build is not cancelled.
  * Examples: false → true; true → false
- * Practice focus: !
  *
  * Timebox: 20 minutes or less.
  */

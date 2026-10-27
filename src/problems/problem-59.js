@@ -1,10 +1,11 @@
 /**
- * Problem 59: ternary drill
+ * Problem 59: Operators drill
+ * Category: Operators
  * Type: Drill
- * Practice focus: condition ? a : b
  *
- * Three short reps with the same method. Use it in every function,
- * even where another approach would also pass.
+ * Three short reps. All three can be solved with the same method.
+ * Work out which one, then use it in every function, even where
+ * another approach would also pass. Stuck? See docs/hints.md.
  *
  * 1. resultLabel(passed)
  *    Return 'PASS' when passed is true, otherwise 'FAIL'.

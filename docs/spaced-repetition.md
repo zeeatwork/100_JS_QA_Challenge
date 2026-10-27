@@ -17,44 +17,7 @@ If you cannot recall the feature, review it and schedule another short retrieval
 
 ## Deliberate repetitions
 
-References to Problems 60-100 are from version 1 and will change as those batches are rewritten.
-
-| Concept | First practice | Later practice |
-|---|---:|---|
-| `typeof` | 1–4 |  |
-| `===` | 5 | 11, 72, 98 |
-| `%` | 10 | 17, 50 |
-| `&&`, `||`, `!` | 12–14 | 50, 81–85, 99–100 |
-| `.length` | 22 | 36, 67, 95 |
-| `startsWith()` | 23 | 55, 61 |
-| `endsWith()` | 24 | 62 |
-| `includes()` | 25 | 63, 92 |
-| `toLowerCase()` | 26 | 35, 50, 54, 64, 91, 93 |
-| `toUpperCase()` | 27 | 65 |
-| `trim()` | 28 | 36, 50, 53, 66, 91 |
-| character indexing | 29–30 | 68–69 |
-| `slice()` | 31–32 | 39–40, 50–52, 70, 93, 95 |
-| `indexOf()` | 39–40 | 50, 52 |
-| `replace()` / `replaceAll()` | 33 | 94 |
-| `Number.isFinite()` | 41 | 80 |
-| `Number.isInteger()` | 42 | 50 |
-| `toFixed()` | 43 |  |
-| `Number.parseInt()` | 44 | 50, 56 |
-| `Number.parseFloat()` | 45 |  |
-| `Number.isNaN()` | 46 |  |
-| `Math.max()` | 47 | 50, 57, 74 |
-| `Math.min()` | 48 | 50, 75 |
-| `Math.round()` | 49 | 77 |
-| `??` | 58 | 86 |
-| ternary `? :` | 59 | 90 |
-| range comparisons | 18–19 | 88 |
-
-## Especially important: `||` vs `??`
-
-- `||` falls back for **any falsy value**, including `''` and `0`.
-- `??` falls back only for **`null` or `undefined`**.
-
-Problems 58 and 86–87 deliberately reinforce this distinction because it is common in JavaScript configuration and test automation code.
+Key methods come back in later problems on purpose. The map of which concept repeats where is at the bottom of `docs/hints.md`, folded shut, because it names the method for each problem.
 
 ## Review tracker
 

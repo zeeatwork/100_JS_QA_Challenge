@@ -4,7 +4,6 @@
  *
  * Return true only when status is exactly 'passed'.
  * Examples: 'passed' → true; 'Passed' → false
- * Practice focus: ===
  *
  * Timebox: 20 minutes or less.
  */

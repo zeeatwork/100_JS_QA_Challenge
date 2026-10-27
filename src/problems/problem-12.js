@@ -4,7 +4,6 @@
  *
  * Return true when a test failed AND retryCount is less than 2.
  * Examples: 'failed', 1 → true
- * Practice focus: &&, <
  *
  * Timebox: 20 minutes or less.
  */

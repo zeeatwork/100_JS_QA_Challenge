@@ -4,7 +4,6 @@
  *
  * Return true when value is a finite number.
  * Examples: 10 → true; Infinity → false
- * Practice focus: Number.isFinite
  *
  * Timebox: 20 minutes or less.
  */

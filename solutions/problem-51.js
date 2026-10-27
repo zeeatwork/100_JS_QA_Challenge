@@ -1,5 +1,5 @@
 /**
- * Reference solution for Problem 51: slice drill
+ * Reference solution for Problem 51: Strings drill
  * Type: Drill
  */
 export function getBuildDate(timestamp) {
@@ -10,6 +10,6 @@ export function getRunSuffix(runId) {
   return runId.slice(-4);
 }
 
-export function getShortSha(sha) {
-  return sha.slice(0, 7);
+export function getSprintNumber(sprintName) {
+  return sprintName.slice(7);
 }

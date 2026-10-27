@@ -1,12 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { getBaseUrl, getRetryCount, getHeadless } from '../../solutions/problem-58.js';
+import { getAssignee, getRetryCount, getHeadless } from '../../solutions/problem-58.js';
 
-test('Reference solution 58: getBaseUrl keeps deliberate settings, including empty strings', () => {
-  assert.deepStrictEqual(getBaseUrl(), "http://localhost:3000");
-  assert.deepStrictEqual(getBaseUrl(null), "http://localhost:3000");
-  assert.deepStrictEqual(getBaseUrl("https://staging.example.com"), "https://staging.example.com");
-  assert.deepStrictEqual(getBaseUrl(""), "");
+test('Reference solution 58: getAssignee falls back only when the field is empty', () => {
+  assert.deepStrictEqual(getAssignee(), "Unassigned");
+  assert.deepStrictEqual(getAssignee(null), "Unassigned");
+  assert.deepStrictEqual(getAssignee("jsmith"), "jsmith");
 });
 
 test('Reference solution 58: getRetryCount keeps 0 retries', () => {

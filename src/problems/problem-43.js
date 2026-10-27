@@ -4,7 +4,6 @@
  *
  * Return a score rounded to two decimal places as a string.
  * Examples: 98.126 → '98.13'
- * Practice focus: toFixed
  *
  * Timebox: 20 minutes or less.
  */

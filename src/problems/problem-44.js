@@ -4,7 +4,6 @@
  *
  * Convert a numeric string to an integer.
  * Examples: '42' → 42
- * Practice focus: Number.parseInt
  *
  * Timebox: 20 minutes or less.
  */

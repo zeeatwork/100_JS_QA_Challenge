@@ -1,5 +1,5 @@
 /**
- * Reference solution for Problem 54: toLowerCase drill
+ * Reference solution for Problem 54: Strings drill
  * Type: Drill
  */
 export function isSameBrowser(a, b) {

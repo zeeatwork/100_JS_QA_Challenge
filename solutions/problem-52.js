@@ -1,13 +1,13 @@
 /**
- * Reference solution for Problem 52: indexOf drill
+ * Reference solution for Problem 52: Strings drill
  * Type: Drill
  */
 export function findFirstFailure(log) {
   return log.indexOf('FAIL');
 }
 
-export function hasProjectSeparator(ticketId) {
-  return ticketId.indexOf('-') !== -1;
+export function hasProjectSeparator(ticketKey) {
+  return ticketKey.indexOf('-') !== -1;
 }
 
 export function getValueAfterColon(line) {

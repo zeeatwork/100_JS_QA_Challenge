@@ -1,9 +1,9 @@
 /**
- * Reference solution for Problem 58: ?? (nullish coalescing) drill
+ * Reference solution for Problem 58: Operators drill
  * Type: Drill
  */
-export function getBaseUrl(configured) {
-  return configured ?? 'http://localhost:3000';
+export function getAssignee(assignee) {
+  return assignee ?? 'Unassigned';
 }
 
 export function getRetryCount(configured) {

@@ -4,7 +4,6 @@
  *
  * Remove leading and trailing whitespace from an environment name.
  * Examples: ' staging ' → 'staging'
- * Practice focus: trim
  *
  * Timebox: 20 minutes or less.
  */

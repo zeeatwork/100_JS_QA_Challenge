@@ -1,15 +1,15 @@
 /**
- * Reference solution for Problem 53: trim drill
+ * Reference solution for Problem 53: Strings drill
  * Type: Drill
  */
-export function cleanTicketId(raw) {
+export function cleanTicketKey(raw) {
   return raw.trim();
 }
 
-export function isBlankComment(text) {
-  return text.trim() === '';
+export function isBlankSummary(summary) {
+  return summary.trim() === '';
 }
 
-export function countVisibleCharacters(label) {
-  return label.trim().length;
+export function getSummaryLength(summary) {
+  return summary.trim().length;
 }
