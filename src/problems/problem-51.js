@@ -25,16 +25,13 @@
  * Timebox: 20 minutes or less.
  */
 export function getBuildDate(timestamp) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return timestamp.slice(0,10);
 }
 
 export function getRunSuffix(runId) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return runId.slice(-4);
 }
 
 export function getSprintNumber(sprintName) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return sprintName.slice(sprintName.indexOf(' ') + 1);
 }
