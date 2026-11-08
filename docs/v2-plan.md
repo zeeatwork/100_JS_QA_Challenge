@@ -29,9 +29,11 @@ After Problem 50, record anything you had to look up or got wrong. Later batches
 
 | Function | Solved from memory? | Notes |
 |---|---|---|
-| `isValidRetryCount()` | | |
-| `normalizeEnvironment()` | | |
-| `getTicketNumber()` | | |
-| `shouldBlockRelease()` | | |
-| `clampWorkers()` | | |
-| `isOddShard()` | | |
+| `isValidRetryCount()` | Partly, needed a hint | First try returned false for valid input. Then the odd-number check from `isOddShard` slipped into the return, which rejected 0. Review: once guard clauses rule out bad input, return `true`. One-liner: `Number.isInteger(value) && value >= 0`. |
+| `normalizeEnvironment()` | Yes | Passed on first try. |
+| `getTicketNumber()` | Yes, fixed on my own | First try returned `'-1042'`: the slice started one character early and the result was a string. Review: slice after the dash, then convert to a number. |
+| `shouldBlockRelease()` | Yes | Passed on first try. |
+| `clampWorkers()` | Yes, fixed on my own | First try returned 8 for an input of 4. Review: `Math.min` sets the cap (max), `Math.max` sets the floor (min). |
+| `isOddShard()` | Yes | Passed on first try. |
+
+Diagnostic taken 2026-11-08. 3 of 6 passed on the first try; 5 of 6 after fixing on my own.

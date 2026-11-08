@@ -44,31 +44,31 @@
  * Timebox: 20 minutes or less.
  */
 export function isValidRetryCount(value) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  if (value < 0 || !Number.isInteger(value)) {
+    return false
+  }
+    return true;
 }
 
 export function normalizeEnvironment(name) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return name.toLowerCase().trim();
 }
 
 export function getTicketNumber(ticketKey) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return parseInt(ticketKey.slice(ticketKey.indexOf('-') + 1));
 }
 
 export function shouldBlockRelease(failedCount, isApproved) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return (failedCount > 0 || !isApproved);
 }
 
 export function clampWorkers(requested) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  if (Math.max(requested)<= 1){
+    return 1;
+  }
+  return Math.min(requested, 8)
 }
 
 export function isOddShard(shardNumber) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return shardNumber % 2 !== 0;
 }
