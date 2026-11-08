@@ -8,6 +8,5 @@
  * Timebox: 20 minutes or less.
  */
 export function capWorkers(workerCount) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return Math.min(workerCount, 8);
 }
