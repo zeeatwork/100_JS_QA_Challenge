@@ -8,6 +8,5 @@
  * Timebox: 20 minutes or less.
  */
 export function roundDuration(duration) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return Math.round(duration);
 }
