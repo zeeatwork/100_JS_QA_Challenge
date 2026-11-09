@@ -25,16 +25,16 @@
  * Timebox: 20 minutes or less.
  */
 export function findFirstFailure(log) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return log.indexOf('F');
 }
 
 export function hasProjectSeparator(ticketKey) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return ticketKey.includes('-');
 }
 
 export function getValueAfterColon(line) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  if (line.indexOf(':') === -1){
+    return '';
+  }
+  return line.substring(line.indexOf(':') + 1);
 }
