@@ -25,11 +25,11 @@
  * Timebox: 20 minutes or less.
  */
 export function findFirstFailure(log) {
-  return log.indexOf('F');
+  return log.indexOf('FAIL');
 }
 
 export function hasProjectSeparator(ticketKey) {
-  return ticketKey.includes('-');
+  return ticketKey.indexOf('-') >= 0;
 }
 
 export function getValueAfterColon(line) {
