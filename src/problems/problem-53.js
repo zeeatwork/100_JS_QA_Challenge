@@ -27,16 +27,13 @@
  * Timebox: 20 minutes or less.
  */
 export function cleanTicketKey(raw) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return raw.trim();
 }
 
 export function isBlankSummary(summary) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+ return summary.trim().length === 0;
 }
 
 export function getSummaryLength(summary) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return summary.trim().length;
 }
