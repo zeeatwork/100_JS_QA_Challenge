@@ -25,16 +25,13 @@
  * Timebox: 20 minutes or less.
  */
 export function isSameBrowser(a, b) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return a.toLowerCase() === b.toLowerCase();
 }
 
 export function toTagKey(tag) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return tag.toLowerCase();
 }
 
 export function isPassedStatus(status) {
-  // TODO: Replace this with your solution.
-  throw new Error('Not implemented');
+  return status.toLowerCase() === 'passed'
 }
